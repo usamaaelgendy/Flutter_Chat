@@ -1,0 +1,58 @@
+name: chatting_ui_fun
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  flutter_svg: ^0.19.0
+  # Firebase
+  firebase_core: "0.5.0"
+  firebase_auth: "^0.18.0+1"
+  cloud_firestore: "^0.14.0+2"
+  firebase_storage: "^4.0.0"
+
+  # provider
+  provider: ^4.3.1
+
+  # Google sign in
+  google_sign_in: ^4.5.4
+
+  # animation text kit to make anim to text
+  animated_text_kit: ^2.2.0
+
+  cached_network_image: ^2.2.0+1
+
+  # we use image picker to get image from the phone
+  image_picker: ^0.6.7+2
+  image: ^2.1.12
+
+  #toast
+  toast: ^0.1.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/fonts/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Italic.ttf
+          style: italic
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
